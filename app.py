@@ -61,3 +61,7 @@ if st.button('Submit'):
         save_into_csv(name, author, link, pair, summ)
 
 
+st.markdown(""" <style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style> """, unsafe_allow_html=True)
